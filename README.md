@@ -1,4 +1,4 @@
-World of 2030
+<h2>World of 2030</h2>
 World of 2030 is a project created to highlight the current situation of climate change that we are facing, as well as looking
 into the future of 2030 and explore what the future may hold. It includes interactive elements such as graphs, videos, images etc. 
 
