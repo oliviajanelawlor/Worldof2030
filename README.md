@@ -12,4 +12,4 @@ js-standard-style HTML css
 
 <h3>Built with Atom</h3>
 
-<center><h2>https://oliviajanelawlor.github.io/Worldof2030.html </h2></center>
+<center><h2>https://oliviajanelawlor.github.io/Worldof2030/index.html</h2></center>
