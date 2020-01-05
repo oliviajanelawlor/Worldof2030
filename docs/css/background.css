@@ -1,0 +1,242 @@
+body {
+  background: url('https://66.media.tumblr.com/c16aca00189f14d939bd8ca27e992383/e55cba09888c391e-a0/s1280x1920/f2891e6e4daf495308141c25940bacfe8842d067.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* text */
+.title{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    color: white;
+    text-align:center;
+    font-size: 70px;
+    background-color: rgb(0,0,0,0.5);
+    padding: 6px;
+    margin-top: 1px;
+}
+
+h2{
+  font-family:'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+#subhead{
+  font-family:'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  color: white;
+  text-align:center;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+#charttitle{
+  font-family:'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  color: white;
+  text-align:center;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+#charttitle1{
+  font-family:'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  color: white;
+  text-align:center;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+#bodytext{
+  font-family: 'Gupter', serif;
+  color: white;
+  text-align:justify;
+  font-size: 19px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 3px;
+}
+
+#bodytext1{
+  font-family: 'Gupter', serif;
+  color: white;
+  text-align:left;
+  font-size: 23px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 3px;
+}
+
+
+#quote{
+  font-family: 'Gupter', serif,;
+  color: white;
+  text-align:center;
+  font-size: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding top: 10px;
+  padding-bottom: 5px;
+}
+
+#caption{
+  font-family: 'Gupter', serif,;
+  color: grey;
+  text-align:center;
+  font-size: 12px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding top: 10px;
+  padding-bottom: 5px;
+}
+
+
+/*link*/
+.link1{
+  font-family:'Bebas Neue', cursive;
+  letter-spacing: 2.5px;
+  color: grey;
+  text-shadow: 1px 1px 3px #000000;
+  text-align: center;
+  font-size: 50px;
+  padding: 3px;
+  font-size: 30px;
+
+}
+/*map*/
+.map{
+  margin: 0;
+  max-width: 100%;
+}
+
+/*rating system*/
+
+.ratings{
+  padding: 10px;
+  align-content: center;
+}
+
+/*map hidden when on mobile or tablet*/
+@media only screen and (max-width: 550px){
+.map{
+  display: none;
+}
+
+#subhead{
+  font-size: 30px;
+}
+}
+
+/*video*/
+.video1{
+  align-items: center;
+  padding: 20px;
+}
+
+/*navbar for computers etc*/
+
+li{
+  list-style-type: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin: 0 40px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding:5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:hover{
+  color: #6B8E23	;
+  text-decoration: none;
+}
+
+nav{
+  width: 100vw;
+  background-color: rgb(0,0,0,0.5);
+  border-top: 10px;
+  border-top-color: black;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+button{
+  display: none;
+}
+
+/*navbar for mobile and tablets*/
+
+@media only screen and (max-width: 550px) {
+ul{
+    flex-direction: column;
+  }
+
+a{
+    display: block;
+  }
+
+li{
+      margin: 0;
+    }
+
+button{
+  display: block;
+
+  padding: 2vw;
+  font-size: 3vh;
+  background-color: #90EE90;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  }
+}
+
+/*charts*/
+.barchart{
+  padding:20px;
+}
+
+.countrybar{
+  padding: 20px;
+}
+
+/*design features*/
+
+hr.new{
+  border: 2px solid white;
+  border-radius: 3px;
+  width: 50%;
+}
