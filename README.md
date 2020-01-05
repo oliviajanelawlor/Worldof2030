@@ -11,3 +11,5 @@ the impact climate change has had on the previous decade, and what to possibly e
 js-standard-style HTML css
 
 <h3>Built with Atom</h3>
+
+<center><h2>https://oliviajanelawlor.github.io/Worldof2030/how.html </h2></center>
